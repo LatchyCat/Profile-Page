@@ -1,12 +1,58 @@
 /* <!--Start topNav--> */
-/* TODO: */
+/* TODO: Completed */
 
-.topNav {}
+.topNav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between; /* Align items with space between them */
+    height: 80px;
+    padding: 10px; /* Add padding to the topNav for better spacing */
+    border: lightblue solid 5px;
+    border-radius: 22px;
+}
 
-.leftBox {}
+.leftBox {
+    display: flex;
+    color: whitesmoke;
+    align-items: center;
+    gap: 20px;
+    margin-left: 180px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: lightblue double 8px;
+    border-radius: 15px;
+    padding: 10px;
+}
 
-.rightBox {}
+.leftBox p {
+    color:lightblue;
+    outline-color: black;
+    padding: 10px;
+    border: lightblue solid 4px;
+    border-style: dashed solid;
 
+}
+
+.leftBox h2 {
+    margin-left: 15px;
+}
+
+.rightBox {
+    display: flex;
+    background-color: lightblue;
+    gap: 10px;
+    margin-right: 80px;
+    border: black solid 10px;
+    border-radius: 20px;
+    border-style: double;
+}
+
+.signOutBtn {
+    border-radius: 30px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+
+}
 /* <!--End topNav--> */
 
 
