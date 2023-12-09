@@ -30,7 +30,6 @@
     padding: 10px;
     border: lightblue solid 4px;
     border-style: dashed solid;
-
 }
 
 .leftBox h2 {
@@ -58,12 +57,40 @@
 
 
 /* <!--Start profileNav--> */
-/* TODO: */
+/* TODO: Completed*/
 
-.profileNav {}
+.profileNav {
+    display: flex;
+    background-color: black;
+    border: lightblue solid 5px;
+    border-radius: 22px;
+    height: 400px;
+    width: 550px;
+    margin-top: 15px;
+    padding: 3px;
+}
 
-.topBar {}
+.topBar {
+    display: flex;
+    height: 100px;
+    width: 550px;
+    border: lightblue solid 5px;
+    border-radius: 22px;
+    margin: 5px;
+    background-color: lightblue;
+    margin-top: 7px;
+}
 
+.topBar img {
+    border-style: dashed solid;
+    border-radius: 17px;
+    border-width: 3px;
+    border-color: black;
+    position: absolute;
+    bottom: 435px;
+    /* transform: translateX(-50%); */
+    height: 100px;
+}
 /* <!--End profileNav--> */
 
 
