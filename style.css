@@ -4,9 +4,11 @@
 .topNav {
     background-color: black;
     display: flex;
-    justify-content: space-between; /* Align items with space between them */
+    justify-content: space-between;
+    /* Align items with space between them */
     height: 80px;
-    padding: 10px; /* Add padding to the topNav for better spacing */
+    padding: 10px;
+    /* Add padding to the topNav for better spacing */
     border: lightblue solid 5px;
     border-radius: 22px;
 }
@@ -25,7 +27,7 @@
 }
 
 .leftBox p {
-    color:lightblue;
+    color: lightblue;
     outline-color: black;
     padding: 10px;
     border: lightblue solid 4px;
@@ -52,7 +54,11 @@
     font-family: 'Times New Roman', Times, serif;
 
 }
+
 /* <!--End topNav--> */
+
+
+/* -----@@------------------------------------------------@@----- */
 
 
 
@@ -91,7 +97,82 @@
     /* transform: translateX(-50%); */
     height: 100px;
 }
+
 /* <!--End profileNav--> */
+
+
+
+
+
+
+/* -----@@------------------------------------------------@@----- */
+
+
+.notesNav {
+    display: flex;
+    background-color: black;
+    border: lightblue solid 5px;
+    border-radius: 22px;
+    height: 400px;
+    width: 550px;
+    margin-top: 15px;
+    padding: 3px;
+}
+
+
+.topNotesBar {
+    display: flex;
+    height: 50px;
+    width: 498px;
+    border: lightblue solid 10px;
+    border-radius: 22px;
+    border-width: 5px;
+    margin: 8px;
+    background-color: black;
+    margin-top: 7px;
+    left: 32px;
+    position: absolute;
+    /* align-self: center; */
+    color: black;
+}
+
+.topNotesBar p {
+    padding-left: 15px;
+    color: whitesmoke;
+}
+
+.bottomNotesBar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: whitesmoke;
+    border: lightblue solid 5px;
+    border-radius: 15px;
+    margin-top: 74px;
+    margin-left: 18px;
+    /* margin-right: 10px; */
+    margin-bottom: 10px;
+    width: 500px;
+}
+
+.notesNav .bottomNotesBar p {
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+#datetime-display {
+    color: red;
+}
+
+
+
+/* -----@@------------------------------------------------@@----- */
+
+
+
 
 
 /* <!--start Connection Request Nav--> */
@@ -102,6 +183,15 @@
 .topConReqBar {}
 
 /* <!--End Connection Request Nav--> */
+
+
+
+
+
+/* -----@@------------------------------------------------@@----- */
+
+
+
 
 
 /* <!--Start Personal Connection Nav--> */
