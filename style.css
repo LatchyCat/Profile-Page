@@ -11,6 +11,7 @@
     /* Add padding to the topNav for better spacing */
     border: lightblue solid 5px;
     border-radius: 22px;
+    box-shadow: 5px 10px 8px lightblue;
 }
 
 .leftBox {
@@ -24,6 +25,7 @@
     border: lightblue double 8px;
     border-radius: 15px;
     padding: 10px;
+    box-shadow: 5px 5px 8px lightblue;
 }
 
 .leftBox p {
@@ -32,10 +34,15 @@
     padding: 10px;
     border: lightblue solid 4px;
     border-style: dashed solid;
+    box-shadow: 3px 3px 3px lightblue;
 }
 
 .leftBox h2 {
     margin-left: 15px;
+    box-shadow: 4px 3px 3px lightblue;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px;
 }
 
 .rightBox {
@@ -63,7 +70,7 @@
 
 
 /* <!--Start profileNav--> */
-/* TODO: Completed*/
+/* TODO: */
 
 .profileNav {
     display: flex;
@@ -83,8 +90,9 @@
     border: lightblue solid 5px;
     border-radius: 22px;
     margin: 5px;
-    background-color: lightblue;
+    background-color: black;
     margin-top: 7px;
+    box-shadow: 5px 10px 8px red;
 }
 
 .topBar img {
@@ -98,6 +106,7 @@
     height: 100px;
 }
 
+
 /* <!--End profileNav--> */
 
 
@@ -107,7 +116,7 @@
 
 /* -----@@------------------------------------------------@@----- */
 
-
+/* TODO: completed */
 .notesNav {
     display: flex;
     background-color: black;
