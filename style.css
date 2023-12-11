@@ -129,7 +129,7 @@
 /* Start bottomProfileBar */
 
 
-
+TODO: Completed
 .bottomProfileBar {
     background-color: black;
     border-radius: 10px;
@@ -143,23 +143,19 @@
 
 }
 
-.mapMarkerUnOrderedList {
-    list-style: none;
-    width: 430px;
-
-}
 
 .mapMarkerUnOrderedList li {
     display: flex;
-    align-items: center;
+    align-items: start;
     /* margin-right: 10px; */
-    /* margin-bottom: 10px;
-    margin-left: 5px; */
+    /* margin-bottom: 10px;*/
+    margin-left: 5px;
     /* margin-top: 10px; */
     /* padding: 5px; */
 
-    height: 65px;
-    /* width: 200px; */
+    height: 45.5px;
+    /* width: 10px; */
+
 }
 
 .bottomProfileBar p {
@@ -167,12 +163,12 @@
     /* background-color: black; */
     border: lightblue solid 3.1px;
     border-radius: 10px;
-    box-shadow: 5px 2px 10px black;
+    box-shadow: 5px 2.5px 10px goldenrod;
     /* margin: 0px 0px 2px 15px; */
-    /* padding: 10px; */
+    padding: 6px;
     /* height: 20px; */
     /* width: 50px; */
-    font-size: 20px;
+    font-size: 18px;
     /* width: 20px; */
 }
 
@@ -183,6 +179,7 @@
     box-shadow: 5px 2.5px 10px goldenrod;
     height: 18px;
     margin-right: 10px;
+    margin-top: 23.5px;
 }
 
 
