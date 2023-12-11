@@ -1,3 +1,9 @@
+/*
+/* .container {
+    /* display: flex; */
+    /* justify-content: space-between;
+} */
+
 /* <!--Start topNav--> */
 /* TODO: Completed */
 
@@ -129,7 +135,7 @@
 /* Start bottomProfileBar */
 
 
-TODO: Completed
+/* TODO: Completed */
 .bottomProfileBar {
     background-color: black;
     border-radius: 10px;
@@ -139,7 +145,15 @@ TODO: Completed
 
     height: 262.5px;
     /* width: 10px; */
-    margin: /* top  -->*/0px   /* Right --> */10px   /* bottom -->*/0px   /* left -->*/10px;
+    margin:
+        /* top  -->*/
+        0px
+        /* Right --> */
+        10px
+        /* bottom -->*/
+        0px
+        /* left -->*/
+        10px;
 
 }
 
@@ -189,10 +203,110 @@ TODO: Completed
 
 
 
+/* -----@@------------------------------------------------@@----- */
+
+
+/* <!--start Connection Request Nav--> */
+/* TODO: */
+
+
+.conReqNav {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* position: absolute; */
+    background-color: black;
+    border: lightblue solid 5px;
+    border-radius: 20px;
+    box-shadow: 7px 3.2px 10px black;
+    margin-left: 650px;
+    height: 300px;
+    padding: 5px;
+}
+
+
+
+.topConReqBar {
+    /* box-shadow: 7px 3.2px 10px goldenrod; */
+    border: lightblue solid 5px;
+    border-radius: 10px;
+    color: whitesmoke;
+    background-color: black;
+}
+
+.accCircleBox li{
+    border: black solid 10px;
+    display: flex;
+    align-items: center;
+    /* box-shadow: 7px 3.2px 10px goldenrod; */
+}
+.accCircleBox img{
+    height: 40px;
+    padding: 10px;
+}
+
+
+
+.bottomConReqBox {
+    border: solid lightblue 5px;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.bottomConReqBar {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+    border: solid lightblue 5px;
+    border-radius: 30px;
+    height: 54px;
+    margin: 5px;
+    color: aliceblue;
+}
+
+.bottomConReqBar img {
+    height: 30px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.conReqEnd {
+    display: flex;
+    align-items: center;
+}
+
+.image-button {
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    margin-left: 5px; 
+}
+
+.image-button img {
+    width: 24px;
+    height: auto;
+}
+
+
+
+.bottomConReqBar .image-button {
+    margin-left: 100px;
+    /* padding: 30px; */
+}
+/* <!--End Connection Request Nav--> */
+
+
+
+
 
 
 
 /* -----@@------------------------------------------------@@----- */
+
+
+
 
 
 
@@ -264,26 +378,6 @@ TODO: Completed
 
 
 
-/* <!--start Connection Request Nav--> */
-/* TODO: */
-
-
-
-
-
-/* .topConReqBar {
-    box-shadow: 7px 3.2px 10px lightblue;
-    border: lightblue solid 10px;
-    /* border-radius: ; */
-    display: flex;
-    color: aliceblue;
-    background-color: aliceblue;
-} */
-
-/* <!--End Connection Request Nav--> */
-
-
-
 
 
 /* -----@@------------------------------------------------@@----- */
@@ -295,10 +389,10 @@ TODO: Completed
 /* <!--Start Personal Connection Nav--> */
 /* TODO: */
 
-.personalConNav {}
-
 .topPerConBar {}
 
 .bottomPerConBar {}
 
 /* <!--End Personal Connection Nav--> */
+
+*/
