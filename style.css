@@ -281,7 +281,7 @@
     padding: 0;
     background: none;
     cursor: pointer;
-    margin-left: 5px; 
+    margin-left: 5px;
 }
 
 .image-button img {
@@ -389,10 +389,62 @@
 /* <!--Start Personal Connection Nav--> */
 /* TODO: */
 
-.topPerConBar {}
+.personalConNav {
+    height: 500px;
+    /* width: 10px; */
+    border: solid lightblue 4px;
+    border-radius: 20px;
+    margin-left: 800px;
+    padding: 5px;
+    background-color: black;
+}
+.topPerConBar li {
+    height: 50px;
+    background-color: black;
+    border: solid lightblue 3px;
+    border-radius: 10px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+.topPerConBar img{
+    height: 40px;
+    padding: 15px;
+}
 
-.bottomPerConBar {}
+.middlePerConBar {
+    height: 370px;
+    border: solid lightblue 4px;
+    border-radius: 10px;
+    margin: 5px;
+    color: aliceblue;
+}
+.middlePerConBar li {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+.middleImgParTag {
+    height: 50px;
+    display: flex;
+    margin: 5px;
+    padding: 4px;
+    align-items: center;
 
+}
+
+.bottomPerConBar {
+    height: 50px;
+    /* width: 10px; */
+    border: solid lightblue 4px;
+    border-radius: 10px;
+    margin: 4px;
+    background-color: black;
+    margin-left: 40px;
+}
+.bottomPerConBar a {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
 /* <!--End Personal Connection Nav--> */
-
-*/
